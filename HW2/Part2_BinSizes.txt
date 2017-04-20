@@ -1,0 +1,27 @@
+File List for Homework: Part2
+
+1. Project created by mbed compiler Online 
+FileName : helloworld_hw2LPC1768.bin
+Size: 17.9KB
+
+2. File created by Eclipse Project 
+FileName: HelloWorld_HW.bin 
+Size of File : 9.76KB
+
+3. makefile: Modified to complie only with LPC1768
+
+4. Modified Program to reduce size by a small bit. 
+File Name : 
+Program :main_v2.cpp 
+Bin File : v2.bin : 
+Size of the bin : 9.69KB
+
+5. Modifying the device.h file so some C libraries do not compile helps reduce the size a lot. 
+File modified : 
+Location in gcc4mbed
+gcc4mbed/external/mbed/libraries/mbed/targets/hal/TARGET_NXP/TARGET_LPC176X/TARGET_MBED_LPC1768/device.h 
+
+File Modified : device.h (Remove the stdio option)
+New Bin size : 3.18KB 
+Bin in this case: bin_device_file.bin
+
