@@ -1,0 +1,27 @@
+
+
+#include "mbed.h"
+
+DigitalOut led_array[] = {(LED1), (LED2), (LED3), (LED4), (LED4), (LED3), (LED2), (LED1)};
+
+int main() 
+
+{
+
+int i;
+
+ 
+
+while(1)
+
+    {
+        for(i=0;i<8;i++){
+            led_array[(i==0)? 7:i-1] =0;
+            led_array[i] =1;
+            wait(.25);
+            }
+
+   }
+
+}
+
